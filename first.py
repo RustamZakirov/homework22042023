@@ -2,7 +2,6 @@
 # 2, 3, 4, 6, 7, 8 -> 6, 7, 8
 
 import random
-b = []
 a = [random.randint(1, 10) for i in range(20)]
 print(F"Начальный массиd: {a}")
 b = list(filter(lambda i: i > 5, a))
