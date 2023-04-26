@@ -12,5 +12,6 @@ list2 = []
 for x in list: 
     if x not in list2:
         list2.append(x)
-print(f"Начальный список: {list}")
+a = len(list) - len(list2)
+print(f"Начальный список: {list} -> совпадают {a} элемента")
 print(f"Второй список: {list2}")
